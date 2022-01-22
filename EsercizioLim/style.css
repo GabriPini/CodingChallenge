@@ -1,0 +1,92 @@
+body{
+  background-image: url(immagini/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.container{
+  width: 60%;
+  height: auto;
+  margin: auto;
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+  border-radius: 7px 7px 7px 7px;
+  padding: 10%;
+
+
+}
+
+.logo{
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.logo-text{
+  color: #00FF00;
+  font-family: 'Josefin Sans', sans-serif ;
+  font-weight: bold;
+  margin: auto;
+  width: 50%;
+}
+
+.navbar{
+  background-color: #00FF00;
+  border: 10px solid #00FF00;
+
+}
+button{
+   margin: 0;
+   position: relative;
+   left: 35%;
+
+}
+}
+  }
+
+.monopattino{
+  margin-top: 20px;
+}
+
+.devicename{
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif ;
+  font-weight: bold;
+}
+div > p{
+  margin: 1px;
+}
+ /* Barre stato batteria  */
+.mediumcharge{
+  background-color: #f4a460;
+  border: 1px solid #f4a460 ;
+  border-radius: 7px 7px 7px 7px;
+  height: 30px;
+  width: 30%;
+  margin-left: 0;
+}
+
+.fullcharge{
+  background-color:#32cd32;
+  border: 1px solid #32cd32 ;
+  border-radius: 7px 7px 7px 7px;
+  height: 30px;
+  width: 60%;
+  margin-left: 0;
+}
+
+.lowcharge{
+  background-color:#cd5c5c	;
+  border: 1px solid #cd5c5c	 ;
+  border-radius: 7px 7px 7px 7px;
+  height: 30px;
+  width: 15%;
+  margin-left: 0;
+
+}
